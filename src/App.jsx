@@ -1,12 +1,12 @@
 import React from 'react'
 import AppStyles from './App.styles'
+import PageColor from './components/PageColor'
 
 const App = () => {
-	const message = 'welcome to the website'
 	return (
 		<React.Fragment>
 			<AppStyles />
-			<h1>{message}</h1>
+			<PageColor />
 		</React.Fragment>
 	)
 }
